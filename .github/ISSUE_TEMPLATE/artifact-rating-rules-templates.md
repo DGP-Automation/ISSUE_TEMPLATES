@@ -1,7 +1,7 @@
 ---
 name: Artifact Rating Rules Templates
 about: 圣遗物评分细则模版
-title: "[Artifact Rating]"
+title: "[Artifact Rating] 请在这里填写角色名称"
 labels: area-AvatarInfo
 assignees: Lightczx
 
