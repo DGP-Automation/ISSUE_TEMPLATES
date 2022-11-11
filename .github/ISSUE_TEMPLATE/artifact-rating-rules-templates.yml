@@ -30,3 +30,34 @@ body:
         |元素伤害|  10% |
    validations:
     required: true
+    
+ - type: dropdown
+   id: no-duplicated-dropdown
+   attributes:
+     label: 我确认当前没有其它的该角色的圣遗物评分细则建议
+     decription: 如果有，你应该在已有的工单内回复以提出你的建议
+     options:
+      - 否
+      - 是
+   validatations:
+     required: true
+
+ - type: dropdown
+   id: title-filled-dropdown
+   attributes:
+     label: 我确认已设置合适的标题
+     options:
+      - 否
+      - 是
+   validatations:
+     required: true
+     
+ - type: dropdown
+   id: all-filled-dropdown
+   attributes:
+     label: 我确认已完整填写表格
+     options:
+      - 否
+      - 是
+   validatations:
+     required: true
