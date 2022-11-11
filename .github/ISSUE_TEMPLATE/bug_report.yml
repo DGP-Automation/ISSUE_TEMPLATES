@@ -63,7 +63,8 @@ body:
       description: 补充说明包括但不限于：日志文件、抛出的错误信息、截图和录屏
       options:
         - 是
-          required: true
+    validations:
+      required: true
         
   - type: checkboxes
     id: confirm-no-duplicated-issue
@@ -76,7 +77,8 @@ body:
                    **没有帮助的重复问题可能会被直接关闭**
       options:
         - 是
-          required: true
+    validations:
+      required: true
       
   - type: checkboxes
     id: confirm-docs
@@ -85,5 +87,6 @@ body:
       description: Snap Hutao 官方文档：[https://hut.ao](https://hut.ao)
       options:
         - 是
-          required: true
+    validations:
+      required: true
         
