@@ -35,11 +35,11 @@ body:
    id: no-duplicated-dropdown
    attributes:
      label: 我确认当前没有其它的该角色的圣遗物评分细则建议
-     decription: 如果有，你应该在已有的工单内回复以提出你的建议
+     description: 如果有，你应该在已有的工单内回复以提出你的建议
      options:
       - 否
       - 是
-   validatations:
+   validations:
      required: true
 
  - type: dropdown
@@ -49,7 +49,7 @@ body:
      options:
       - 否
       - 是
-   validatations:
+   validations:
      required: true
      
  - type: dropdown
@@ -59,5 +59,5 @@ body:
      options:
       - 否
       - 是
-   validatations:
+   validations:
      required: true
