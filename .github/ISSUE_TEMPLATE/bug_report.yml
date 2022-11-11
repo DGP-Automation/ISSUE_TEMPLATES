@@ -54,7 +54,6 @@ body:
                    如果应用程序崩溃了，请将`log.db` 文件上传，文件包含了敏感信息，谨慎上传
                    如果这个表单是关于导入祈愿记录的问题，请包含你导入的`Json`文件
                    **务必不要上传`user.db`文件，该文件包含你的帐号敏感信息**
-      render: shell
   
   - type: dropdown
     id: confirm-issue
