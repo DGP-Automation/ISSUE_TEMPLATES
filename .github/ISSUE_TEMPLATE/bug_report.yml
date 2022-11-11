@@ -1,0 +1,89 @@
+name: 问题反馈
+description: 告诉我们你的问题
+title: "[Bug]: 在这里填写一个合适的标题"
+labels: ["BUG"]
+assignees:
+  - Lightczx
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请按下方的要求填写完整的问题表单，以便我们更快的定位问题。
+
+  - type: input
+    id: winver
+    attributes:
+      label: Windows 版本
+      description: | 
+        `Win+R` 输入 `winver` 回车后在打开的窗口第二行可以找到
+      placeholder: 例：22000.556
+    validations:
+      required: true
+   
+  - type: input
+    id: shver
+    attributes:
+      label: Snap Hutao 版本
+      description: 在应用标题，应用程序的设置界面中靠下的位置可以找到
+      placeholder: 例：1.1.0
+    validations:
+      required: true   
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 发生了什么？
+      description: 详细的描述问题发生前后的行为，以便我们解决问题
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-expected
+    attributes:
+      label: 你期望发生的行为？
+      description: 详细的描述你期望发生的行为，突出与目前（可能不正确的）行为的不同
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 相关的崩溃日志
+      description: |
+                   在资源管理器中直接输入`%userprofile%/Documents/Hutao`即可进入文件夹
+                   如果应用程序崩溃了，请将`log.db` 文件上传，文件包含了敏感信息，谨慎上传
+                   如果这个表单是关于导入祈愿记录的问题，请包含你导入的`Json`文件
+                   **务必不要上传`user.db`文件，该文件包含你的帐号敏感信息**
+      render: shell
+  
+  - type: dropdown
+    id: confirm-issue
+    attributes:
+      label: 我确认已在表单中附上了充足的补充说明以帮助开发人员确定问题
+      description: 补充说明包括但不限于：日志文件、抛出的错误信息、截图和录屏
+      options:
+        - 是
+          required: true
+        
+  - type: checkboxes
+    id: confirm-no-duplicated-issue
+    attributes:
+      label: 我确认没有他人提出相同或类似的问题
+      description: |
+                   请先通过 Issue 搜索功能确认这不是相同的问题；
+                   [BUG Issues](https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+is%3Aopen+label%3ABUG)
+                   你应该在原始 Issue 中通过回复添加有助于解决问题的信息，而不是创建重复的问题；
+                   **没有帮助的重复问题可能会被直接关闭**
+      options:
+        - 是
+          required: true
+      
+  - type: checkboxes
+    id: confirm-docs
+    attributes:
+      label: 我确认该问题没有在文档中解释
+      description: Snap Hutao 官方文档：[https://hut.ao](https://hut.ao)
+      options:
+        - 是
+          required: true
+        
