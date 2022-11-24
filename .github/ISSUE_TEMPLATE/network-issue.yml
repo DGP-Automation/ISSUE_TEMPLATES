@@ -12,7 +12,7 @@ body:
         **请按下方的要求填写完整的问题表单，以便我们更快的定位问题。**
   
   - type: textarea
-    id: what-happened
+    id: network-diagnosis-report
     attributes:
       label: 提交你的网络诊断报告
       description: | 
