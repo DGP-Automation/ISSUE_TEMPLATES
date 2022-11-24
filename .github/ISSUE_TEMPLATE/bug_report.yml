@@ -31,7 +31,7 @@ body:
       required: true
 
   - type: dropdown
-      id: user-set-category
+    id: user-set-category
       attributes:
         label: 问题分类
         description: 请设置一个你认为合适的分类，这将帮助我们快速定位问题
