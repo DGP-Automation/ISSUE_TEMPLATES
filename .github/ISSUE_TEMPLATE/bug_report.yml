@@ -30,26 +30,26 @@ body:
     validations:
       required: true
 
-- type: dropdown
-    id: user-set-category
-    attributes:
-      label: 问题分类
-      description: 请设置一个你认为合适的分类，这将帮助我们快速定位问题
-      options:
-        - 安装和环境
-        - 成就管理
-        - 角色信息面板
-        - 游戏启动
-        - 实时便笺
-        - 养成计算
-        - 文件缓存
-        - 祈愿记录
-        - 玩家查询
-        - 胡桃数据库
-        - 用户界面
-        - 公告
-    validations:
-      required: true   
+  - type: dropdown
+      id: user-set-category
+      attributes:
+        label: 问题分类
+        description: 请设置一个你认为合适的分类，这将帮助我们快速定位问题
+        options:
+          - 安装和环境
+          - 成就管理
+          - 角色信息面板
+          - 游戏启动
+          - 实时便笺
+          - 养成计算
+          - 文件缓存
+          - 祈愿记录
+          - 玩家查询
+          - 胡桃数据库
+          - 用户界面
+          - 公告
+      validations:
+        required: true   
 
   - type: textarea
     id: what-happened
