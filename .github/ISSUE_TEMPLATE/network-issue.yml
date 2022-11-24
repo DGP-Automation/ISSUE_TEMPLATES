@@ -1,9 +1,10 @@
-name: Network Issue
-description: 反馈网络问题
+name: 网络问题
+description: 当网络问题影响到你的程序使用时
 title: "[Network]: 在这里填写一个合适的标题"
-labels: ["Network"]
+labels: ["area-Network"]
 assignees:
   - Lightczx
+  - Masterain98
 body:
   - type: markdown
     attributes:
@@ -59,6 +60,7 @@ body:
         - 完全无法连接服务器
         - 连接速度慢
         - 获取到了不正确的页面或数据
+        - 图片下载错误（429 Error）
         - 其它
     validations:
       required: true 
