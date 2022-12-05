@@ -80,6 +80,7 @@ body:
       label: 我确认已在表单中附上了充足的补充说明以帮助开发人员确定问题
       description: 补充说明包括但不限于：日志文件、抛出的错误信息、截图和录屏
       options:
+        - 否
         - 是
     validations:
       required: true
@@ -94,6 +95,7 @@ body:
                    你应该在原始 Issue 中通过回复添加有助于解决问题的信息，而不是创建重复的问题；
                    **没有帮助的重复问题可能会被直接关闭**
       options:
+        - 否
         - 是
     validations:
       required: true
@@ -104,6 +106,7 @@ body:
       label: 我确认该问题没有在文档中解释
       description: Snap Hutao 官方文档：[https://hut.ao](https://hut.ao)
       options:
+        - 否
         - 是
     validations:
       required: true
