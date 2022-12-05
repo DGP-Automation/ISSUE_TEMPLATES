@@ -5,8 +5,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        **请在上方设置一个合适的工单标题**
-        请按下方的要求填写完整的问题表单，以便我们更快的定位问题。
+        > **请在上方设置一个合适的工单标题**
+        > 请按下方的要求填写完整的问题表单，以便我们更快的定位问题。
 
   - type: checkboxes
     id: checklist
@@ -25,9 +25,6 @@ body:
           required: true
 
         - label: 我会在下方的表单中附上充足的信息以帮助开发人员确定问题
-          required: true
-
-        - label: I have searched [FAQ](https://vuepress-theme-hope.github.io/v2/faq/)
           required: true
 
   - type: input
@@ -95,5 +92,5 @@ body:
                    在资源管理器中直接输入`%userprofile%/Documents/Hutao`即可进入文件夹
                    如果应用程序崩溃了，请将`log.db` 文件上传，文件包含了敏感信息，谨慎上传
                    如果这个表单是关于导入祈愿记录的问题，请包含你导入的`Json`文件
-                   **务必不要上传`user.db`文件，该文件包含你的帐号敏感信息**
+                   > **务必不要上传`user.db`文件，该文件包含你的帐号敏感信息**
         
