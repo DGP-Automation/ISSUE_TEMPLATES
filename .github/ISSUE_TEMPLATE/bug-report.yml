@@ -9,8 +9,8 @@ body:
       请按下方的要求填写完整的问题表单，以便我们更快的定位问题。
 
   - type: checkboxes
-  id: checklist
-  attributes:
+    id: checklist
+    attributes:
     label: 检查清单
     description: |-
       请确保你已完整执行检查清单，否则你的 Issue 可能会被忽略
