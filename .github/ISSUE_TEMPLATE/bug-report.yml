@@ -1,14 +1,12 @@
 name: 问题反馈
 description: 告诉我们你的问题
 title: "[Bug]: 在这里填写一个合适的标题"
-assignees:
-  - Lightczx
 body:
-  - type: markdown
-    attributes:
-      value: |
-        **请在上方设置一个合适的工单标题**
-        请按下方的要求填写完整的问题表单，以便我们更快的定位问题。
+- type: markdown
+  attributes:
+    value: |
+      **请在上方设置一个合适的工单标题**
+      请按下方的要求填写完整的问题表单，以便我们更快的定位问题。
 
   - type: checkboxes
   id: checklist
