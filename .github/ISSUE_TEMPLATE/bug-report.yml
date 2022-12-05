@@ -11,24 +11,24 @@ body:
   - type: checkboxes
     id: checklist
     attributes:
-    label: 检查清单
-    description: |-
-      请确保你已完整执行检查清单，否则你的 Issue 可能会被忽略
-    options:
-      - label: 我已完整阅读[胡桃工具箱文档](https://hut.ao/FAQ/most-frequent-questions.html)，并认为我的问题没有在文档中得到解答
-        required: true
+      label: 检查清单
+      description: |-
+        请确保你已完整执行检查清单，否则你的 Issue 可能会被忽略
+      options:
+        - label: 我已完整阅读[胡桃工具箱文档](https://hut.ao/FAQ/most-frequent-questions.html)，并认为我的问题没有在文档中得到解答
+          required: true
 
-      - label: 我使用的操作系统是[受支持的版本](https://hut.ao/quick-start.html#%E6%9C%80%E4%BD%8E%E7%B3%BB%E7%BB%9F%E8%A6%81%E6%B1%82)
-        required: true
+        - label: 我使用的操作系统是[受支持的版本](https://hut.ao/quick-start.html#%E6%9C%80%E4%BD%8E%E7%B3%BB%E7%BB%9F%E8%A6%81%E6%B1%82)
+          required: true
 
-      - label: 我确认没有其他人已经提出了相同或类似的问题
-        required: true
+        - label: 我确认没有其他人已经提出了相同或类似的问题
+          required: true
 
-      - label: 我会在下方的表单中附上充足的信息以帮助开发人员确定问题
-        required: true
+        - label: 我会在下方的表单中附上充足的信息以帮助开发人员确定问题
+          required: true
 
-      - label: I have searched [FAQ](https://vuepress-theme-hope.github.io/v2/faq/)
-        required: true
+        - label: I have searched [FAQ](https://vuepress-theme-hope.github.io/v2/faq/)
+          required: true
 
   - type: input
     id: winver
