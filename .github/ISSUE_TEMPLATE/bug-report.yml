@@ -96,7 +96,7 @@ body:
       required: false
 
   - type: checkboxes
-    id: checklist
+    id: checklist-final
     attributes:
       label: 最后一步
       description: 回顾你的回答
