@@ -1,6 +1,7 @@
 name: BUG Report [English Form]
 description: Tell us what issue you get
 title: "[ENG][Bug]: Place your Issue Title Here"
+labels: ["BUG"]
 body:
   - type: markdown
     attributes:
