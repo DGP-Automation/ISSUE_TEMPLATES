@@ -83,5 +83,3 @@ body:
       options:
         - label: 我已经在该议题中上传了包含网络诊断报告的加密压缩包
           required: true
-  
-
