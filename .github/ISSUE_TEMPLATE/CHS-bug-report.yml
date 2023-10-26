@@ -1,5 +1,5 @@
 name: 问题反馈
-description: 告诉我们你的问题
+description: 通过这个议题向开发团队反馈你发现的程序中的问题
 title: "[Bug]: 在这里填写一个合适的标题"
 labels: ["BUG", "priority:none"]
 body:
