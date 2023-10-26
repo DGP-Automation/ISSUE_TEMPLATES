@@ -51,6 +51,7 @@ body:
       description: | 
         在胡桃工具箱的设置界面，你可以找到并复制你的设备 ID
         如果你的问题涉及程序崩溃，请填写该项，这将有助于我们定位问题
+        如果你的程序已经无法启动，请下载并运行[此PowerShell脚本](https://github.com/DGP-Studio/ISSUE_TEMPLATES/releases/download/get_device_id/GetHutaoDeviceId.ps1)，它将显示你的设备 ID
     validations:
       required: false
 
