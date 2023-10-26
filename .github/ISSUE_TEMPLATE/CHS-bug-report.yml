@@ -14,7 +14,7 @@ body:
     attributes:
       label: 检查清单
       description: |-
-        请确保你已完整执行检查清单，否则你的 Issue 可能会被忽略
+        请确保你已完整执行检查清单，否则你的议题可能会被忽略
       options:
         - label: 我已阅读 Snap Hutao 文档中的[常见问题](https://hut.ao/advanced/FAQ.html)和[常见程序异常](https://hut.ao/advanced/exceptions.html)，我的问题没有在文档中得到解答
           required: true
