@@ -43,4 +43,11 @@ body:
       ```
     
       - [ ]  通知用户
-      
+- type: checkboxes
+  id: checklist-final
+  attributes:
+    label: Final Check
+    description: Understand what you are doing 
+    options:
+      - label: I understand that I will get banned from repository if I don't have permission to use this template
+        required: true   
