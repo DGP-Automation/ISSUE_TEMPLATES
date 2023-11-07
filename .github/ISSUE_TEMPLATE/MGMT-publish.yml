@@ -5,8 +5,11 @@ labels: ["Publish"]
 assignees:
   - Lightczx
 body:
-- type: markdown
+- type: textarea
+  id: main-body
   attributes:
+    label: What Happened?
+    description: Describe your issue in detail to help us identify the issue. **If your issue is about program crash, you should check Windows Event Viewer, and attach associated `.Net Error` details here**
     value: |
 
       ## 创建版本
