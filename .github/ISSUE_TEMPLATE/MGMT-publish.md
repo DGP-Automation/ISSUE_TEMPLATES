@@ -19,8 +19,6 @@ assignees: "Lightczx"
       - [ ]  更新日志
       - [ ]  功能文档更新
 
-  ---
-
   ## 发布版本
 
   - [ ]  在 https://store.rg-adguard.net/ 下载新版本安装包
