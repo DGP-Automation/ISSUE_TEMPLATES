@@ -1,9 +1,13 @@
+---
 name: [MGMT] Publish
 description: FOR ADMIN USE ONLY. WILL CAUSE A BAN IF NO PERMISSION.
 title: "[MGMT]: Publish Version 1.9.99"
 labels: ["publish"]
-body: 
-  ## 发布前
+assignees:
+  - Lightczx
+---
+
+  ## 创建版本
 
   - [ ]  同步一次 [Crowdin](https://crowdin.com/project/snap-hutao) 翻译
   - [ ]  发布 RC 版本（Optional）
@@ -18,9 +22,8 @@ body:
 
   ---
 
-  ## 发布后
+  ## 发布版本
 
-  - [ ]  等待发布
   - [ ]  在 https://store.rg-adguard.net/ 下载新版本安装包
       - [ ]  Store URL: https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52
       - [ ]  命名格式为 `Snap.Hutao x.x.x.msix`
