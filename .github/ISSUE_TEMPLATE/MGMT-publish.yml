@@ -1,8 +1,9 @@
-name: [MGMT] Publish
+name: Publish Process
 description: FOR ADMIN USE ONLY. WILL CAUSE A BAN IF NO PERMISSION.
-title: '[MGMT]: Publish Version 1.9.99'
-labels: publish
-assignees: "Lightczx"
+title: "[Publish]: Version 1.9.98"
+labels: ["Publish"]
+assignees:
+  - Lightczx
 body:
 - type: markdown
   attributes:
