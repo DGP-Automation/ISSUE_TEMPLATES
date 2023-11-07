@@ -1,10 +1,9 @@
 ---
 name: [MGMT] Publish
-description: FOR ADMIN USE ONLY. WILL CAUSE A BAN IF NO PERMISSION.
-title: "[MGMT]: Publish Version 1.9.99"
-labels: ["publish"]
-assignees:
-  - Lightczx
+about: FOR ADMIN USE ONLY. WILL CAUSE A BAN IF NO PERMISSION.
+title: '[MGMT]: Publish Version 1.9.99'
+labels: publish
+assignees: "Lightczx"
 ---
 
   ## 创建版本
